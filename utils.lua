@@ -1,4 +1,4 @@
-local Utils;
+local Utils = {};
 
 local function Utils:ClientTypeResolver()
   if game:GetService("GuiService").IsWindows then
